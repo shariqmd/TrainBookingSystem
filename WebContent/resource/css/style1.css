@@ -1,0 +1,266 @@
+.loginBox{
+margin-top:210px;;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+width:370px;
+height:450px;
+padding:80px 40px;
+box-sizing:border-box;
+background: rgba(0,0,0,0.2);
+}
+.user{
+width:100px;
+height:100px;
+border-radius:50%;
+overflow:hidden;
+position:absolute;
+top:calc(-100px/2);
+left:calc(50% - 50px);
+}
+h2{
+margin:0px;
+padding :0 0 30px;
+color: #FFCC00;
+text-align:center;
+}
+.loginBox p{
+margin:0px;
+padding:0px;
+    font-size: 16px;
+color:#fff;
+}
+.loginBox input{
+width:100%;
+/* margin-bottom:20px; */
+}
+
+.loginBox input[type="text"],
+.loginBox  input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #fff;
+background : transparent;
+outline: none;
+height:40px;
+color: #fff; 
+font-size:16px;
+}
+
+::placeholder{
+color:rgba(255,255,255,0.5); 
+}
+
+
+.loginBox input[type="submit"]{
+border:none;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+background:#ff267e;
+cursor:pointer;
+border-radius:20px;
+}
+
+ 
+.loginBox input[type="submit"]:hover
+{
+background:#efed40;
+color:#262626;  
+}
+
+.loginBox a{
+color:#fff;
+font-size:14px;
+font-weight:bold;
+text-decoration:none;
+}
+
+
+/* User Register Form...... */
+
+
+#nand h1{
+text-align:center;
+padding:20px;
+color:#fff;
+}
+
+#nand h2{
+ text-align: left;
+    margin-left: 35px;
+    
+padding:10px;
+color:#f3f90f;
+}
+
+.registeruser{
+background: rgba(0,0,0,0.1);
+width:500px;
+ margin:0px 0px 0px 70px; 
+color:#fff;
+font-size:16px;
+padding:20px;
+
+}
+
+#registeruser{
+margin-left:75px;
+
+}
+ #nand label{
+color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+
+
+}
+
+.registeruser input[type="text"],
+.registeruser  input[type="password"],
+.registeruser  input[type="email"]
+
+{
+border:none;
+border-bottom: 1px solid #fff;
+background : transparent;
+outline: none;
+height:40px;
+color: #fff; 
+font-size:16px;
+}
+#uservalue{
+width:300px;
+border:none;
+outline:0;
+padding:7px;
+outline: 0;
+    height: 20px;
+    border-bottom: 1px solid white;
+    padding: 7px;
+}    
+#subuser{
+width:200px;
+padding:7px;
+margin-left: 50px;
+ background: #cde2e2;
+color:#9c3333; 
+border-radius:3px;
+outline:0;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+#nand input[type="submit"]:hover
+{
+background:#efed40;
+color:#262626;  
+}
+
+
+
+/*  For Slider Menu */
+
+#ingrohead_ {
+	float: left;
+	left: 0px;
+	top: 0px;
+	width: 760px;
+	height: 388px;
+  background-image: url('../images/header.jpg');
+} 
+
+#ingrohead_ ul.navi{
+	width: 750px;
+	display: block;
+	position: absolute;
+	top: 347px;
+	left: 58px;
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+#ingrohead_ ul.navi li{
+	border-width: 1px;
+	background: url('../images/saparation.gif') no-repeat right;
+	height: 22px;
+	padding: 0 18px 0 5px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+#ingrohead_ ul.navi li a{
+	font: 14px/21px Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+	text-indent: 0px;
+	padding: 0 0 0 33px;
+	font-weight: bold;
+	margin: 0;
+	width: inherit;
+	letter-spacing: -1px;
+	background-repeat: no-repeat;
+	background-image: url('../images/button.png');
+}
+#ingrohead_ ul.navi li a:hover{
+	color: #FFFF99;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-image: url('../images/button_over.png');
+}
+
+/*  All home page  */
+
+.homebody{
+	width:100%;
+	height:520px;
+	background: black;
+	margin:auto;
+
+}
+
+
+#headvalue{
+	width:100%;
+	height:400px;
+	padding-top: 20px;
+padding-left: 60px;
+}
+
+#headvalue img{
+	/* border-radius: 50%; */
+}
+
+.first{
+	width:27%;
+	height:200px;
+	float:left;
+	
+	
+}
+
+
+.second{
+	width:27%;
+	height:200px;
+	float:left;
+	padding-left: 20px;
+	}
+
+.third{
+	width:27%;
+	height:200px;
+	float:left;
+	padding-left: 20px;
+}
+
+#top img{
+	width:690px;
+	height:700px;
+	margin-left: 35px;
+	
+	
+}
